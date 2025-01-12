@@ -1,0 +1,42 @@
+
+## **1. Variables**  
+- **Definition**: A variable is a named storage for a value.  
+- **Syntax**:  
+  ```python
+  variable_name = value
+  ```
+- **Rules**:  
+  - Must start with a letter or underscore (_).
+  - Cannot contain spaces or special characters.
+  - Cannot use reserved keywords (e.g., `if`, `else`, `while`).  
+
+---
+
+## **2. Data Types**  
+- **Common Types**:  
+  - `int`: Integer numbers (e.g., `5`, `-10`).
+  - `float`: Decimal numbers (e.g., `3.14`, `-0.5`).
+  - `str`: Strings or text (e.g., `"hello"`, `'world'`).
+  - `bool`: Boolean values (`True`, `False`).
+  - `list`: Ordered collection (e.g., `[1, 2, 3]`).
+  - `tuple`: Immutable ordered collection (e.g., `(1, 2, 3)`).
+  - `dict`: Key-value pairs (e.g., `{"name": "John", "age": 25}`).
+  - `set`: Unordered collection of unique items (e.g., `{1, 2, 3}`).
+
+---
+
+## **3. Input/Output**  
+- **Input**: To accept user input.  
+  ```python
+  name = input("Enter your name: ")
+  age = int(input("Enter your age: "))  # Converts input to an integer
+  ```
+- **Output**: To display information.  
+  ```python
+  print("Hello", name, "! You are", age, "years old.")
+  ```
+  - You can also use `f-strings` for cleaner formatting:  
+    ```python
+    print(f"Hello {name}! You are {age} years old.")
+    ```
+
